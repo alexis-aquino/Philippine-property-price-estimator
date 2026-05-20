@@ -1,0 +1,31 @@
+# Virtual environment — never push this, it's huge and machine-specific
+venv/
+
+# CSV data files — too large for GitHub, keep locally
+# CSV data files — ignore raw/intermediate files, keep only final dataset
+lamudi_raw.csv
+lamudi_with_price.csv
+lamudi_with_price_progress.csv
+lamudi_listings_progress.csv
+lamudi_listings_large.csv
+lamudi_large_with_price.csv
+lamudi_large_clean.csv
+test_page1.csv
+lamudi_clean.csv
+
+
+# Python cache files — auto-generated, not needed
+__pycache__/
+*.pyc
+*.pyo
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Model files (large) — add later when you have them
+*.pkl
+*.joblib
